@@ -23,13 +23,32 @@
   <meta name="twitter:title" content="Peachbeach Marketing">
   <meta name="twitter:description" content="Strategic Product Marketing Leadership. 10+ years building go-to-market strategies for financial and software products.">
   <meta name="twitter:image" content="https://peachbeach.co/images/1200_630_Logo.png">
+
+  <style>
+    /* Homepage-specific mobile styles */
+    @media (max-width: 768px) {
+      body.homepage .header-logo-desktop { display: none !important; }
+      body.homepage .header-text-content { display: none !important; }
+      body.homepage .header-mobile-image { display: block !important; }
+    }
+    @media (max-width: 576px) {
+      body.homepage .header-mobile-image { max-width: 250px !important; }
+    }
+  </style>
 </head>
-<body>
+<body class="homepage">
   <header>
-    <img src="images/peachbeach_logo.png" alt="Peachbeach Marketing Logo" style="position: absolute; top: 2rem; left: 8%; max-width: 120px; height: auto; z-index: 10;">
-    <h1>Peachbeach Marketing</h1>
-    <p>Strategic Product Marketing for Financial & Software Products</p>
-    <span class="subtitle">Go-to-Market Strategy • Market Research • Budget Analysis • AI-Infused Marketing</span>
+    <img src="images/peachbeach_logo.png" alt="Peachbeach Marketing Logo" class="header-logo-desktop" style="position: absolute; top: 2rem; left: 8%; max-width: 120px; height: auto; z-index: 10;">
+
+    <!-- Mobile Homepage Image -->
+    <img src="images/PeachBeach_Homepage_Image.png" alt="Peachbeach Marketing" class="header-mobile-image" style="display: none; max-width: 300px; margin: 0 auto 2rem; height: auto;">
+
+    <!-- Desktop Text Content -->
+    <div class="header-text-content">
+      <h1>Peachbeach Marketing</h1>
+      <p>Strategic Product Marketing for Financial & Software Products</p>
+      <span class="subtitle">Go-to-Market Strategy • Market Research • Budget Analysis • AI-Infused Marketing</span>
+    </div>
   </header>
 
   <nav>

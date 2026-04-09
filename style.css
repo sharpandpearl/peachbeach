@@ -313,7 +313,7 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  /* Logo */
+  /* Logo on other pages */
   header img { max-width: 80px !important; top: 1rem !important; left: 5% !important; }
 
   /* Typography */
