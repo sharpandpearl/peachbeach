@@ -335,14 +335,17 @@ footer {
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
+    width: 100%;
   }
 
   .header-title-wrapper {
-    text-align: left;
+    text-align: center;
+    flex: 0 1 auto;
   }
 
   .header-title-wrapper h1 {
     margin-bottom: 0;
+    text-align: center;
   }
 
   /* Adjust header padding on mobile */
