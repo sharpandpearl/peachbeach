@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Tools/Maven/apache-maven-3.9.12/bin/mvn clean compile)",
+      "Bash(/c/Tools/Maven/apache-maven-3.9.12/bin/mvn package)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

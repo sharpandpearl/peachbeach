@@ -1,0 +1,19 @@
+{
+  "name": "mariliam-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for Mariliam Clinical Research Consulting website",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:mobile": "playwright test --grep Mobile",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "testing", "e2e"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
